@@ -167,7 +167,7 @@ const util = (() => {
     const animation = () => {
         const duration = 15 * 1000;
         const animationEnd = Date.now() + duration;
-        const colors = ["#FFC0CB", "#FF1493", "#C71585"];
+        const colors = ["#70779F", "#E9D0C9", "#213555"];
 
         const randomInRange = (min, max) => {
             return Math.random() * (max - min) + min;
